@@ -29,7 +29,7 @@ LiquidCrystal lcd(12,11,5,4,3,2);  // تعیین کردن شماره پین ها
 
 void setup() {
   lcd.begin(16, 2);     // تعیین کردن تعداد سطر و ستون LCD
-  lcd.clear();
+  lcd.clear();        //   محتوای قبلی را پاک می کند
 }
 
 void loop() {
